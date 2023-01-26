@@ -53,6 +53,10 @@ a {
     font-weight: 500;
 }
 
+.bg-black {
+    background: #000;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -123,6 +127,8 @@ a {
         visibility: hidden;
         transition: .5s;
         left: auto;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+        background: #fff !important;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -133,6 +139,83 @@ a {
     }
 }
 
+.hero-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.hero-wrapper .hero-title {
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 4rem;
+}
+
+.hero-wrapper .hero-title h1 {
+    font-size: 2.625rem;
+    color: #fff;
+}
+.hero-wrapper .hero-title p {
+    color: #fff;
+}
+
+.hero-wrapper .hero-video {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 0 0 83.3333%;
+}
+
+.hero-wrapper .hero-video .em-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 216.667%;
+    height: 0px;
+    overflow: hidden;
+    background-size: cover;
+    transition: transform 1.5s ease 0.25s, opacity 1s ease 0.25s;
+    transform: translateY(0px);
+    opacity: 1;
+    border-radius: 13% / 6%;
+    box-shadow: rgb(26, 26, 26) 0px 0px 0px 8px;
+    background-color: rgb(26, 26, 26);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hero-wrapper .hero-video .rys-video {
+    max-width: 83.3333%;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 8.33333%;
+    margin-top: 0rem;
+    min-width: 0px;
+}
+
+.hero-wrapper .hero-video .video-wrapper {
+    position: relative;
+    display: flex;
+    height: 100%;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+}
+
+.bg-white-top {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 45vw;
+    margin-top: -44vw;
+}
 
 .article-card {
     border: 0;
